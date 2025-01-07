@@ -14,4 +14,4 @@ This prototype was created at the Visualization and Interaction in Digital Media
 
 Supervised by Prof. Sebastian Stamm & Prof. Florian Machill
 
-(Gamedesign - WS 2023/2024)
+(Gamedesign - WS 2024/2025)
