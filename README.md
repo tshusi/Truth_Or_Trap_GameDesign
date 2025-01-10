@@ -1,4 +1,4 @@
-# VIS3_PA-GrundlagenGamedesign
+#Truth_Or_Trap_GameDesign_Repo
 
 Repository für die Projektarbeit im Modul Grundlagen Gamedesign.
 
