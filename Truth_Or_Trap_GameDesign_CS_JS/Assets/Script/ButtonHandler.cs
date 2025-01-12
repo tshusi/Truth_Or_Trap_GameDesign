@@ -4,30 +4,40 @@ using UnityEngine.SceneManagement;
 
 
 public class ButtonHandler : MonoBehaviour
+
 {
-    // Change scene on Button click
+    public bool isPanelHidden = true;
+   
+    
     public void LoadScene(string sceneToLoad)
     {
         SceneManager.LoadScene(sceneToLoad);
     }
 
-    //Hide Panel
     public void HideTextPanel (GameObject textPanel)
     { 
         textPanel.SetActive(false); 
     }
 
-    //Show Panel
-    public void ShowTextPanel(GameObject textPanel)
-    {
+    public void ShowTextPanel (GameObject textPanel)
+    { 
         textPanel.SetActive(true);
     }
 
 
-    //Hide one panel and show another
-    public void SwitchPanels(GameObject panelToHide, GameObject panelToShow)
+    public void SwitchPanelVisibility(GameObject textPanel)
+
     {
-        panelToHide.SetActive(false);
-        panelToHide.SetActive(true);
+        if (isPanelHidden)
+        {
+            textPanel.SetActive(true);
+            isPanelHidden = false;
+        }
+        else
+        {
+            textPanel.SetActive(false);
+            isPanelHidden = true;
+        }
     }
+
 }

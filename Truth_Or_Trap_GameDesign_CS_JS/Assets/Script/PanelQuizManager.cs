@@ -107,4 +107,5 @@ public class PanelQuizManager : MonoBehaviour
         trueButton.gameObject.SetActive(false);
         falseButton.gameObject.SetActive(false);
     }
+
 }
