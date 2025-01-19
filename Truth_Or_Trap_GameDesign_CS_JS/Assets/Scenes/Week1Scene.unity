@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 584734238}
   - component: {fileID: 584734237}
   m_Layer: 5
-  m_Name: AuthorText
+  m_Name: AutorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 743132551}
   - component: {fileID: 743132550}
   m_Layer: 5
-  m_Name: AuthorText
+  m_Name: AutorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4137,7 +4137,7 @@ GameObject:
   - component: {fileID: 1618717291}
   - component: {fileID: 1618717290}
   m_Layer: 5
-  m_Name: AuthorText
+  m_Name: AutorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4559,9 +4559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Fast richtig! Manchmal ist es besser vorsichtig zu sein, als jedem Artikel
-    zu glauben.\nAchte n\xE4chste Woche nochmal genauer darauf, ob der ver\xF6ffentlicher
-    vertrauensw\xFCrdig klingt."
+  m_text: Fast richtig!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

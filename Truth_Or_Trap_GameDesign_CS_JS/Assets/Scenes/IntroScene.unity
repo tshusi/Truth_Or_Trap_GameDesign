@@ -835,8 +835,8 @@ MonoBehaviour:
     Wer steht im Impressum? Ist der Autor bekannt oder ein Phantom? Und vor allem
     \u2013 wirkt die Webadresse glaubw\xFCrdig?\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -866,7 +866,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1059,13 +1059,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Willkommen und herzlichen Gl\xFCckwunsch zu deinem neuen Job!\r\n\nDu
-    bist jetzt offiziell en Teil des \u201EAmtes f\xFCr Falschnachrichtenverbreitung\u201C
+    bist jetzt offiziell ein Teil der  \u201EOrganisation gegen Falschnachrichtenverbreitung\u201C
     \u2013 eines entscheidenden Teams, das die Informationsflut im Netz aufr\xE4umt.\r\n\nDeine
     Aufgabe?\nDie von unseren Detektiven gemeldeten Artikel auf verd\xE4chtigen Webseiten
     zu \xFCberpr\xFCfen und diese, falls n\xF6tig, aus dem Verkehr zu ziehen.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1089,13 +1089,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1288,11 +1288,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Diese Informationen kannst du oben rechts in der Ecke \xFCber \"Info\"
-    nachlesen! Praktisch, oder?\n\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt
-    \u2013 klicke auf den Monitor."
+    nachlesen! Praktisch, oder?\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt
+    \u2013 klicke auf den\t\t\tMonitor."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
