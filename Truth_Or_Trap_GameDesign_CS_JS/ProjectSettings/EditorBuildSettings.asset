@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroScene.unity
     guid: d3c990d16178ce74487d1250f6fec494
   - enabled: 1
-    path: Assets/Scenes/Week1.unity
+    path: Assets/Scenes/Week1Scene.unity
     guid: 53df3a559b02f274b94bcb7529491b6f
+  - enabled: 1
+    path: Assets/Scenes/ShopSceneHelpT_T.unity
+    guid: aca8ea08b26295843803d88601ff1f9d
+  - enabled: 1
+    path: Assets/Scenes/Week2Scene.unity
+    guid: 76ebb914642f86d48a770ca6bd41e8c6
   m_configObjects: {}
