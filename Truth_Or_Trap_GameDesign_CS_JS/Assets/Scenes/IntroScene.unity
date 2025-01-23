@@ -835,8 +835,8 @@ MonoBehaviour:
     Wer steht im Impressum? Ist der Autor bekannt oder ein Phantom? Und vor allem
     \u2013 wirkt die Webadresse glaubw\xFCrdig?\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
-  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
+  m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1064,8 +1064,8 @@ MonoBehaviour:
     Aufgabe?\nDie von unseren Detektiven gemeldeten Artikel auf verd\xE4chtigen Webseiten
     zu \xFCberpr\xFCfen und diese, falls n\xF6tig, aus dem Verkehr zu ziehen.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
-  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
+  m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1288,11 +1288,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Diese Informationen kannst du oben rechts in der Ecke \xFCber \"Info\"
-    nachlesen! Praktisch, oder?\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt
-    \u2013 klicke auf den\t\t\tMonitor."
+    nachlesen! Praktisch, oder?\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt.\n(Klicke
+    auf den Monitor)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
-  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
+  m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

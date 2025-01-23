@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Week1Scene.unity
     guid: 53df3a559b02f274b94bcb7529491b6f
   - enabled: 1
-    path: Assets/Scenes/DekoBildScene.unity
+    path: Assets/Scenes/IntermissionScene1.unity
     guid: bf50733a7d2959e44bfe166cf7deb63c
   - enabled: 1
     path: Assets/Scenes/Week2Scene.unity

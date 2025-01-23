@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 23f722e86e191604ba33244d3e060218
+guid: 9eaf6f052aae11542b292a31ba257b7d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Golday Free Trial
+  - Covik Sans Demo
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
