@@ -3384,9 +3384,9 @@ MonoBehaviour:
   - panel: {fileID: 1106052702}
     isTrue: 0
   - panel: {fileID: 166852867}
-    isTrue: 0
-  - panel: {fileID: 516262956}
     isTrue: 1
+  - panel: {fileID: 516262956}
+    isTrue: 0
   trueButton: {fileID: 1597393527}
   falseButton: {fileID: 1300358704}
   resultPanelCorrect: {fileID: 54294647}

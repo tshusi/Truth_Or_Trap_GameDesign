@@ -7,30 +7,27 @@ public class PanelQuizManager : MonoBehaviour
     [System.Serializable]
     public class PanelQuestion
     {
-        public GameObject panel; // Das Panel, das angezeigt werden soll
-        public bool isTrue; // Ob die Antwort auf diesem Panel "wahr" ist
+        public GameObject panel;
+        public bool isTrue;
     }
 
-    public List<PanelQuestion> panelQuestions; // Liste der Panels und deren Antworten
-    public Button trueButton; // Button für "wahr"
-    public Button falseButton; // Button für "falsch"
-    public GameObject resultPanelCorrect; // Panel für das Ergebnis, wenn alle Antworten korrekt sind
-    public GameObject resultPanelIncorrect; // Panel für das Ergebnis, wenn es falsche Antworten gibt
+    public List<PanelQuestion> panelQuestions;
+    public Button trueButton;
+    public Button falseButton;
+    public GameObject resultPanelCorrect;
+    public GameObject resultPanelIncorrect;
 
-    private int currentPanelIndex = 0; // Index des aktuellen Panels
-    private int correctAnswers = 0; // Anzahl der richtigen Antworten
-    private int wrongAnswers = 0; // Anzahl der falschen Antworten
+    private int currentPanelIndex = 0;
+    private int correctAnswers = 0;
+    private int wrongAnswers = 0;
 
     void Start()
     {
-        // Buttons mit den Funktionen verknüpfen
         trueButton.onClick.AddListener(() => Answer(true));
         falseButton.onClick.AddListener(() => Answer(false));
 
-        // Nur das erste Panel anzeigen
         ShowPanel(currentPanelIndex);
 
-        // Ergebnis-Panels zu Beginn deaktivieren
         if (resultPanelCorrect != null)
         {
             resultPanelCorrect.SetActive(false);
@@ -58,7 +55,6 @@ public class PanelQuizManager : MonoBehaviour
 
     void Answer(bool userAnswer)
     {
-        // Überprüfen, ob die Antwort korrekt ist
         if (currentPanelIndex < panelQuestions.Count)
         {
             if (panelQuestions[currentPanelIndex].isTrue == userAnswer)
@@ -70,7 +66,6 @@ public class PanelQuizManager : MonoBehaviour
                 wrongAnswers++;
             }
 
-            // Zum nächsten Panel wechseln
             currentPanelIndex++;
 
             if (currentPanelIndex < panelQuestions.Count)
@@ -79,7 +74,6 @@ public class PanelQuizManager : MonoBehaviour
             }
             else
             {
-                // Wenn alle Panels durch sind, Ergebnis anzeigen
                 ShowResult();
             }
         }
@@ -87,13 +81,11 @@ public class PanelQuizManager : MonoBehaviour
 
     void ShowResult()
     {
-        // Alle Panels ausblenden
         foreach (var panelQuestion in panelQuestions)
         {
             panelQuestion.panel.SetActive(false);
         }
 
-        // Richtiges Ergebnis-Panel anzeigen basierend auf den Antworten
         if (wrongAnswers == 0 && resultPanelCorrect != null)
         {
             resultPanelCorrect.SetActive(true);
@@ -103,7 +95,6 @@ public class PanelQuizManager : MonoBehaviour
             resultPanelIncorrect.SetActive(true);
         }
 
-        // Buttons deaktivieren
         trueButton.gameObject.SetActive(false);
         falseButton.gameObject.SetActive(false);
     }

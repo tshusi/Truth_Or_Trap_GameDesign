@@ -42,7 +42,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI Extras
+  - name: UI
     uniqueID: 2717503929
     locked: 0
   - name: Text
