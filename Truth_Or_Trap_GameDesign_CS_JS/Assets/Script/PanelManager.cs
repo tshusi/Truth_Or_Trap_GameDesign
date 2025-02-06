@@ -4,7 +4,7 @@ public class PanelManager : MonoBehaviour
 {
     public GameObject panelToHide;
 
-    void Awake()
+    private void Awake()
     {
         if (panelToHide != null)
         {

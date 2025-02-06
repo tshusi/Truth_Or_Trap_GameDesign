@@ -9,23 +9,23 @@ public class ButtonHandler : MonoBehaviour
     public bool isPanelHidden = true;
    
     
-    public void LoadScene(string sceneToLoad)
+    private void LoadScene(string sceneToLoad)
     {
         SceneManager.LoadScene(sceneToLoad);
     }
 
-    public void HideTextPanel (GameObject textPanel)
+    private void HideTextPanel (GameObject textPanel)
     { 
         textPanel.SetActive(false); 
     }
 
-    public void ShowTextPanel (GameObject textPanel)
+    private void ShowTextPanel (GameObject textPanel)
     { 
         textPanel.SetActive(true);
     }
 
 
-    public void SwitchPanelVisibility(GameObject textPanel)
+    private void SwitchPanelVisibility(GameObject textPanel)
 
     {
         if (isPanelHidden)

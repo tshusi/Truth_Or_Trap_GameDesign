@@ -12,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Boss
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2717503929
+    locked: 0
+  - name: Boss
+    uniqueID: 1329599907
     locked: 0
   - name: Text
     uniqueID: 2875198947
