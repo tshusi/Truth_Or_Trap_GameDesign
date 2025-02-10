@@ -1331,14 +1331,13 @@ GameObject:
   - component: {fileID: 1190809123}
   - component: {fileID: 1190809127}
   - component: {fileID: 1190809126}
-  - component: {fileID: 1190809125}
   m_Layer: 5
   m_Name: Outro?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1190809123
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1360,19 +1359,6 @@ RectTransform:
   m_AnchoredPosition: {x: -50, y: 20}
   m_SizeDelta: {x: 1391.423, y: 283.753}
   m_Pivot: {x: 1, y: 0}
---- !u!114 &1190809125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190809122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 383b5089b0b7e4a468691af89a9b5c31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelToHide: {fileID: 1190809122}
 --- !u!114 &1190809126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1968,14 +1954,13 @@ GameObject:
   - component: {fileID: 1469202833}
   - component: {fileID: 1469202835}
   - component: {fileID: 1469202834}
-  - component: {fileID: 1469202836}
   m_Layer: 5
   m_Name: Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1469202833
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2035,19 +2020,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469202832}
   m_CullTransparentMesh: 1
---- !u!114 &1469202836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469202832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 383b5089b0b7e4a468691af89a9b5c31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelToHide: {fileID: 1469202832}
 --- !u!1 &1704279760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,8 +2054,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.27673, y: 1.1690063}
-  m_SizeDelta: {x: 1022.8441, y: 242.446}
+  m_AnchoredPosition: {x: -3.2780151, y: 1.1690063}
+  m_SizeDelta: {x: 1301.954, y: 242.446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704279762
 MonoBehaviour:
@@ -2239,8 +2211,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Diese Informationen kannst du oben rechts in der Ecke \xFCber \"Info\"
-    nachlesen! Praktisch, oder?\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt.\n(Klicke
+  m_text: "Diese Informationen kannst du in der Taskleiste \xFCber den gelben Info
+    Button nachlesen! Praktisch, oder?\nJetzt aber ran an die Arbeit! Die Zeit dr\xE4ngt.\n(Klicke
     auf den Monitor)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
@@ -3185,7 +3157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1882317591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3324,7 +3296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383b5089b0b7e4a468691af89a9b5c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelToHide: {fileID: 1882317590}
 --- !u!1 &1899647455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3411,7 +3382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1991621478
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3445,7 +3416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383b5089b0b7e4a468691af89a9b5c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelToHide: {fileID: 1991621477}
 --- !u!114 &1991621480
 MonoBehaviour:
   m_ObjectHideFlags: 0

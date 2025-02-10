@@ -25,7 +25,7 @@ public class ButtonHandler : MonoBehaviour
     }
 
 
-    private void SwitchPanelVisibility(GameObject textPanel)
+    public void SwitchPanelVisibility(GameObject textPanel)
 
     {
         if (isPanelHidden)
