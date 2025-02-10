@@ -14,12 +14,12 @@ public class ButtonHandler : MonoBehaviour
         SceneManager.LoadScene(sceneToLoad);
     }
 
-    private void HideTextPanel (GameObject textPanel)
+    public void HideTextPanel (GameObject textPanel)
     { 
         textPanel.SetActive(false); 
     }
 
-    private void ShowTextPanel (GameObject textPanel)
+    public void ShowTextPanel (GameObject textPanel)
     { 
         textPanel.SetActive(true);
     }
