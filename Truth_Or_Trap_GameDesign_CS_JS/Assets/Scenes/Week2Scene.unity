@@ -550,8 +550,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Super gemacht!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
-  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
+  m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1018,10 +1018,10 @@ RectTransform:
   - {fileID: 1530824410}
   - {fileID: 166379756}
   - {fileID: 1330470377}
-  - {fileID: 902451166}
   - {fileID: 1616051035}
   - {fileID: 105639143}
   - {fileID: 1945814598}
+  - {fileID: 902451166}
   m_Father: {fileID: 1972634138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1931,9 +1931,9 @@ RectTransform:
   - {fileID: 1954236795}
   - {fileID: 2241556}
   - {fileID: 1465816880}
-  - {fileID: 123278543}
   - {fileID: 355144656}
   - {fileID: 1272815038}
+  - {fileID: 123278543}
   m_Father: {fileID: 1972634138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3211,7 +3211,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Outro
+          m_StringArgument: CreditScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &981636219
@@ -3537,10 +3537,10 @@ RectTransform:
   - {fileID: 1965044830}
   - {fileID: 2057489381}
   - {fileID: 1173822582}
-  - {fileID: 1255198591}
   - {fileID: 1980635939}
   - {fileID: 807369176}
   - {fileID: 1142439414}
+  - {fileID: 1255198591}
   m_Father: {fileID: 1972634138}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4441,7 +4441,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1365588052}
         m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
-        m_MethodName: SwitchPanelVisibility
+        m_MethodName: ShowTextPanel
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 156478128}
@@ -4868,8 +4868,8 @@ MonoBehaviour:
     isTrue: 0
   trueButton: {fileID: 242255903}
   falseButton: {fileID: 454062954}
-  resultPanelCorrect: {fileID: 54294647}
-  resultPanelIncorrect: {fileID: 1417559097}
+  resultPanelCorrect: {fileID: 148893284}
+  resultPanelIncorrect: {fileID: 2089928567}
 --- !u!1 &1530824409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5265,7 +5265,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Outro
+          m_StringArgument: CreditScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1594313162
@@ -5574,8 +5574,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Das war fast richtig!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 52095125085234147aede2f2f986b3e6, type: 2}
-  m_sharedMaterial: {fileID: -3651610090103585676, guid: 52095125085234147aede2f2f986b3e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
+  m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6734,7 +6734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameIsPaused: 0
-  pauseMenuUI: {fileID: 0}
+  pauseMenuUI: {fileID: 2016145055}
 --- !u!1 &1980635938
 GameObject:
   m_ObjectHideFlags: 0

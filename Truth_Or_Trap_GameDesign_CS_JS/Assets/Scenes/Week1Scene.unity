@@ -542,8 +542,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Die Bev\xF6lkerung ist entsetzt, als gestern enth\xFCllt wurde, dass Pr\xE4sident
-    Orion nicht menschlich ist, sondern eine Eidechse!\nErkannt hat das der Journalist
+  m_text: "Die Bev\xF6lkerung ist entsetzt, als gestern enth\xFCllt wurde, das Pr\xE4sident
+    Orion nicht menschlich ist, sondern ne Eidechse!\nErkannt hat das der Journalist
     Mr. AlwaysRight bei Orions letzter Rede.\nNun liegt die Frage auf der Hand: Vertraut
     die Bev\xF6lkerung weiterhin seiner F\xFChrung oder erkl\xE4rt dies seine Fehltritte
     der letzten zwei Jahre?\n\nDie Epoche Zeit wird Sie weiterhin auf dem Laufenden
@@ -3865,6 +3865,7 @@ GameObject:
   - component: {fileID: 1300358705}
   - component: {fileID: 1300358704}
   - component: {fileID: 1300358708}
+  - component: {fileID: 1300358709}
   m_Layer: 5
   m_Name: WrongButton
   m_TagString: Untagged
@@ -3915,7 +3916,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1300358705}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1300358709}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: HideTextPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1620569895}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1300358705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3994,6 +4007,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1300358709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300358703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e46d2d9160092948a4385f8c1ca66fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPanelHidden: 1
 --- !u!1 &1349393938
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,7 +4737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Der Pr\xE4sident ist ein Eidechsenmensch!!"
+  m_text: "Der Prr\xE4sident ist ein Eidechsenmensch!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
@@ -5012,6 +5038,7 @@ GameObject:
   - component: {fileID: 1597393528}
   - component: {fileID: 1597393527}
   - component: {fileID: 1597393531}
+  - component: {fileID: 1597393532}
   m_Layer: 5
   m_Name: TrueButton
   m_TagString: Untagged
@@ -5062,7 +5089,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1597393528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1597393532}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: HideTextPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1620569895}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1597393528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5141,6 +5180,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1597393532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597393526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e46d2d9160092948a4385f8c1ca66fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPanelHidden: 1
 --- !u!1 &1609305999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,9 +5297,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1972634134}
+      - m_Target: {fileID: 1972634139}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Resume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5465,7 +5517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000095367, y: -297}
+  m_AnchoredPosition: {x: -0, y: -297}
   m_SizeDelta: {x: 625.536, y: 193.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620569897
@@ -6003,7 +6055,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1931997210}
         m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
-        m_MethodName: SwitchPanelVisibility
+        m_MethodName: ShowTextPanel
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1620569895}
@@ -6381,9 +6433,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Wissenschaftler haben herausgefunden das 2025 ein Meteorit die Erde treffen
-    wird!\nLange wurde der gigantische Meteorit ignoriert, weil er untersch\xE4tzt
-    wurde. Doch laut neuen Ergebnissen hat dieser eine gigantische Wucht.\nDoch nicht
-    alle werden sterben. Eine geheime Organisation der Wissenschaftler \xF6ffnet
+    wird!\nLange wrde der gigantische Meteorit ignoriert, weil er untersch\xE4tzt
+    wurde. Doch laut neuen Ergebnissen hat der eine gigantische Wucht.\nDoch nicht
+    alle werden sterben! Eine geheime Organisation der Wissenschaftler  \xF6ffnet
     ihre T\xFCren f\xFCr auserw\xE4hlte Neuzug\xE4nge.\n\nWerde jetzt ein Teil der
     Organisation und sch\xFCtze dich und deine Liebsten!!!"
   m_isRightToLeft: 0
@@ -6563,9 +6615,9 @@ RectTransform:
   - {fileID: 1106052705}
   - {fileID: 166852870}
   - {fileID: 516262959}
+  - {fileID: 1620569896}
   - {fileID: 1349393939}
   - {fileID: 242141947}
-  - {fileID: 1620569896}
   - {fileID: 1482955819}
   - {fileID: 2145350425}
   m_Father: {fileID: 0}

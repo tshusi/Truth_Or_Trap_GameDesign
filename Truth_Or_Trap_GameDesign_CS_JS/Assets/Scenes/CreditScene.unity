@@ -1134,10 +1134,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Du musst diese Woche bitte auch darauf achten, ob die Seite ein Impressum
-    und der Artikel einen Autor hat.
-
-    Du machst das schon Kollege.'
+  m_text: "Vielen Dank dass du diesen Prototypen gespielt hast!\nHoffentlich hattest
+    du Spa\xDF beim Spielen und konntest deine Gesp\xFCr f\xFCr Falschmeldungen verfeinern."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
@@ -1334,7 +1332,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 752984992}
         m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
-        m_MethodName: SwitchPanelVisibility
+        m_MethodName: ShowTextPanel
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 424145137}
