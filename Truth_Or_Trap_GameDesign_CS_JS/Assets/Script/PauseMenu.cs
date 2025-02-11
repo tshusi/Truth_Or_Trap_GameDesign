@@ -28,21 +28,21 @@ public class PauseMenu : MonoBehaviour
     }
     
     
-    private void Resume()
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
         GameIsPaused = false;
     }
 
 
-    private void Pause()
+    public void Pause()
     {
         pauseMenuUI.SetActive(true);
         GameIsPaused = true;
     }
 
 
-    private void QuitGame()
+    public void QuitGame()
     {
         Debug.Log("Quitting game...");
         Application.Quit();

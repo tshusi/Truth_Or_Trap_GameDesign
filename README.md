@@ -6,9 +6,9 @@ Repository für die Projektarbeit im Modul Grundlagen Gamedesign.
 
 Credits:
 
-Christine Schimm ()
+Christine Schimm
 
-Jasmin Schmidt (00165308)
+Jasmin Schmidt
 
 
 
