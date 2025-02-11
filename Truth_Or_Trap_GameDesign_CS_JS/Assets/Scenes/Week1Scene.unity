@@ -2769,7 +2769,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "In der ersten Woche musst du erstmal nur auf Rechtschreibung achten und
-    entscheiden, ob der Link seri\xF6s wirkt.\nViel Gl\xFCck Sportsfreund!"
+    entscheiden, ob der Link seri\xF6s wirkt.\nViel Gl\xFCck Neuling!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3e60567767d98f8488e4836328136bef, type: 2}
   m_sharedMaterial: {fileID: 5457432435080156343, guid: 3e60567767d98f8488e4836328136bef, type: 2}
